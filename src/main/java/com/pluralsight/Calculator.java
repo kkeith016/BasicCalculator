@@ -12,6 +12,6 @@ public class Calculator {
         System.out.print("Enter the second number:")
         int num2 = scan.nextInt();
 
-        System.out.println("Now we will calculate");
+        System.out.println("Now we will calculate you number");
     }
 }
