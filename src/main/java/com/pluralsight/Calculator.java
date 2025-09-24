@@ -13,5 +13,9 @@ public class Calculator {
         int num2 = scan.nextInt();
 
         System.out.println("Now we will calculate you number");
+
+        int result = num1 * num2;
+
+        System.out.println("The result of multiplying " + num1 + " and " + num2 + " is: " + result);
     }
 }
