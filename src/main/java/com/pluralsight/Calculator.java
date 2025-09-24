@@ -19,6 +19,8 @@ public class Calculator {
         System.out.println("(M) is multiply");
         System.out.println("(D) is Divide");
 
+        System.out.print("Please select an option: ");
+        char option = scan.next().charAt(0);
 
         System.out.println("Now we will calculate you number");
 
