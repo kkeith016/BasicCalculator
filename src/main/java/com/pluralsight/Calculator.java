@@ -12,6 +12,14 @@ public class Calculator {
         System.out.print("Enter the second number:");
         int num2 = scan.nextInt();
 
+        //Calculation options
+        System.out.println("Possible calculations:");
+        System.out.println("(A) is Add");
+        System.out.println("(S) is subtract");
+        System.out.println("(M) is multiply");
+        System.out.println("(D) is Divide");
+
+
         System.out.println("Now we will calculate you number");
 
         int result = num1 * num2;
